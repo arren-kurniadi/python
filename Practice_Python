@@ -1,0 +1,8 @@
+x = ["a", "b", "c"]
+temp = x[0]
+x[0] = x[2]
+x[2] = temp
+
+# Join the elements of the list into a single string and print it
+y = ' '.join(x)
+print(y)
